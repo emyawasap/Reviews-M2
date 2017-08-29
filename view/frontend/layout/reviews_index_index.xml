@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Reviews
+ * 
+ * @author Slava Yurthev
+ */
+-->
+<page layout="2columns-right" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<head>
+		<title>Reviews</title>
+	</head>
+	<body>
+		<referenceContainer name="content">
+			<block class="SY\Reviews\Block\Listing" template="SY_Reviews::listing.phtml" />
+		</referenceContainer>
+	</body>
+</page>

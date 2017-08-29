@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Reviews
+ * 
+ * @author Slava Yurthev
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+	<router id="standard">
+		<route id="reviews" frontName="reviews">
+			<module name="SY_Reviews" />
+		</route>
+	</router>
+</config>
